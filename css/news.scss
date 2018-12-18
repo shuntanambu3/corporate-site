@@ -22,6 +22,15 @@ header{
     padding-top: 10px;
     padding-bottom:4px;
   }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+    
+    @media(min-width: 550px){
+      font-size: 5.0rem;
+    }
+  }
 
   @media (max-width: 550px) {
     .logo{
@@ -214,14 +223,23 @@ header{
     font-weight: bold;
     padding-bottom: 20px;
    } 
+   
+   #main {
+     padding-right: 20px;
+   }
   }
 
   
   .news_li {
     font-size: 1.5rem;
     list-style: none;
-    
-    li{
+      
+      @media(min-width: 550px){
+        li {
+          padding-bottom: 5px;
+        }
+      }
+      
      span {
     color: $blue1;
     font-weight: bold;
@@ -233,7 +251,7 @@ header{
        padding-right: 10px;
      }
     }
-    }
+    
   }
   
   #sidebar {

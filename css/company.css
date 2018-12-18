@@ -26,6 +26,12 @@ header {
         border-bottom: 1px solid #eee;
         font-size: 14px;
         text-decoration: none; }
+  header h1 {
+    margin: 0;
+    padding: 0; }
+    @media (min-width: 550px) {
+      header h1 {
+        font-size: 5.0rem; } }
 
 @media (max-width: 550px) {
   header .logo {
@@ -125,13 +131,13 @@ header {
         padding-bottom: 20px; } }
   #contents .company_title {
     margin-bottom: 0px; }
-  #contents th {
-    padding-right: 20px; }
   #contents th, #contents td {
     padding: 20px 0;
     color: #626262;
     font-size: 14px;
     font-size: 1.4rem; }
+  #contents th {
+    padding-right: 20px; }
 
 #side_bar {
   padding-bottom: 20px; }

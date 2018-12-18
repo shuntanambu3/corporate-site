@@ -6,6 +6,12 @@ header {
   header #header_in {
     padding-top: 10px;
     padding-bottom: 4px; }
+  header h1 {
+    margin: 0;
+    padding: 0; }
+    @media (min-width: 550px) {
+      header h1 {
+        font-size: 5.0rem; } }
   @media (max-width: 550px) {
     header .logo {
       width: 190px; }
@@ -123,16 +129,21 @@ header {
       border-bottom: 3px solid #42b9d0;
       font-size: 2rem;
       font-weight: bold;
-      padding-bottom: 20px; } }
+      padding-bottom: 20px; }
+    #contents #main {
+      padding-right: 20px; } }
   #contents .news_li {
     font-size: 1.5rem;
     list-style: none; }
-    #contents .news_li li span {
+    @media (min-width: 550px) {
+      #contents .news_li li {
+        padding-bottom: 5px; } }
+    #contents .news_li span {
       color: #42b9d0;
       font-weight: bold;
       margin-bottom: 3px; }
       @media (min-width: 550px) {
-        #contents .news_li li span {
+        #contents .news_li span {
           display: inline-block;
           margin-bottom: 0;
           padding-right: 10px; } }

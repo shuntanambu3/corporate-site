@@ -116,8 +116,9 @@ header {
 #contents {
   padding-top: 35px;
   padding-bottom: 70px; }
-  #contents #main {
-    padding-right: 20px; }
+  @media (min-width: 550px) {
+    #contents #main {
+      padding-right: 20px; } }
   #contents h2 {
     color: #42b9d0;
     border-bottom: 3px solid #42b9d0;
@@ -139,7 +140,7 @@ header {
   #contents th {
     padding-right: 20px; }
 
-#side_bar {
+#sidebar {
   padding-bottom: 20px; }
 
 @media (max-width: 550px) {

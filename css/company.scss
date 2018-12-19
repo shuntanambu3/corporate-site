@@ -179,9 +179,11 @@ header {
   padding-top: 35px;
   padding-bottom: 70px;
   
+   @media(min-width: 550px){
     #main {
       padding-right: 20px;
     }
+   }
     
     h2{
     color: $blue1;
@@ -214,7 +216,7 @@ header {
   }
 
 
- #side_bar{
+ #sidebar{
    padding-bottom: 20px;
  }
 
